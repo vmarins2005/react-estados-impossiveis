@@ -69,7 +69,7 @@ Regras:
 - Transição parcial fica desconfortável de propósito ("mostrar dado antigo
   enquanto revalida" não cabe em `Async<T>` puro). Nesses casos, ou a variante
   ganha um campo (`{ status: 'refreshing'; data: T }`), ou o caso é de cache e
-  pertence ao TanStack Query — ver o projeto [onde-mora-o-estado](https://github.com/vmarins2005/onde-mora-o-estado).
+  pertence ao TanStack Query — ver o projeto [react-onde-mora-o-estado](https://github.com/vmarins2005/react-onde-mora-o-estado).
 
 **Nota de integração**
 - TanStack Query já expõe seu estado nesse formato (`isPending`/`isError`/
